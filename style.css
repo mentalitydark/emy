@@ -117,7 +117,8 @@ div#box > div > button#btn_no:hover {
 
 .modal-dialog {
   position: relative;
-  width: 40%;
+  min-width: 400px;
+  max-width: 40%;
   background-color: #fff8fb;
   border-radius: 5px;
 }
